@@ -1,5 +1,6 @@
 # Assignment-1 of Node and Express
 
+### Using pnpm instead of npm. Introduction. 
 I recently wrote about how we have huge node_modules folders and why this is not necessarily a bad thing, but it would be reduce that hard drive consumption, right?
 
 Every byte saved on disk can be used for something else than libraries code, I have a 512GB SSD on my MacBook Pro I bought in 2010 but some brand new computers in 2019 ship with a 128GB SSD (something went wrong with Moore’s Law when it comes to hard disk space).
