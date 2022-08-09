@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./q-9/app.js"
+    "start": "nodemon ./q-11/app.js",
+    "hello": "node ./q-10/myscript.js",
+    "version" : "node --version",
+    "help": "node --help"
   },
   "keywords": [],
   "author": "",

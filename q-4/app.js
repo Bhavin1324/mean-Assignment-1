@@ -1,4 +1,4 @@
-const WebSocket = require('ws') // npm i ws --save
+const WebSocket = require('ws')
 var http = require('http');
 var fs = require('fs');
 const reply = require('./bot');
