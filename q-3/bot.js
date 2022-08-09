@@ -1,28 +1,23 @@
 const e = require('express');
 const qnadata = require('./data');
-module.exports.reply = function (message) {
+
+function reply(message) {
     message = message.toLowerCase()
-    let data = qnadata.forEach(elem => {
-        elem.q.forEach(ques => {
-            if (ques === message) {
-                return ques
-            }
-        })
-        if (true) { }
-        // work in progress ...
-    })
-
-
-    /* qnadata.map(elem => {
-        const originalQ = elem.q.map(ques => {
-            return message === ques;
-        })
-        if (originalQ.indexOf(message) > -1) {
+    let answerList = qnadata.find(elem => {
+        let data = elem.q.find(ques => ques === message);
+        if (data != undefined) {
             if (elem.a instanceof Function) {
                 return elem.a();
             }
+            return elem.a;
         }
-        return elem.a;
-    }) */
-
+    })
+    if (answerList != undefined) {
+        return answerList.a;
+    }
+    else {
+        return `I don't understrand what you wanna say... :(`
+    }
 }
+
+module.exports = reply;
