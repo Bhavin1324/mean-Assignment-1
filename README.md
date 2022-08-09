@@ -30,3 +30,8 @@ For remove any packages from your dependancies:<br>
 
 and so on ... 
 Visit pnpm offical docs for more information : https://pnpm.io
+
+## Question - 3
+Deployed chat bot module as `health-assist-custom-chatbot`
+
+install chatbot using `npm i health-assist-custom-chatbot`
