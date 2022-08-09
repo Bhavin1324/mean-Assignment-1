@@ -33,7 +33,7 @@ btn.addEventListener('click', async (e) => {
         })
         tableBody.innerHTML = "";
         getEmployeeData();
-        name.value = "";
+        ename.value = "";
         desig.value = "";
     }
     catch (err) {
