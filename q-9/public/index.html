@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <div class="container my-4">
+        <h2 class="my-4">Employee Data</h2>
+        <form method="post">
+            <div class="mb-3">
+                <label for="nameInput" class="form-label">Employee Name</label>
+                <input type="text" name="name" class="form-control" id="nameInput" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+                <label for="designation" class="form-label">Designation</label>
+                <input type="text" name="desig" class="form-control" id="designation">
+            </div>
+            <button type="submit" id="btnSubmit" class="btn btn-primary">Submit</button>
+        </form>
+        <table class="table mt-5">
+            <thead>
+                <tr>
+                    <th scope="col">EmployeeID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Designation</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+            </tbody>
+        </table>
+    </div>
+
+</body>
+<script src="./js/bootstrap.bundle.js"></script>
+
+</html>
