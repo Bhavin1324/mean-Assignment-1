@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon ./q-3/app.js"
+    "start": "nodemon ./q-4/app.js"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +15,7 @@
     "cross-fetch": "^3.1.5",
     "express": "^4.18.1",
     "jquery": "^3.6.0",
-    "nodemon": "^2.0.19"
+    "nodemon": "^2.0.19",
+    "ws": "^8.8.1"
   }
 }

@@ -29,23 +29,23 @@ const qnadata = [
     },
     {
         q: ["body pain"],
-        a: `1)) Take a few cubes of ice in a plastic bag. Fill the bag with water and seal or tie it close. Wrap the bag in a towel and put it over the affected area a few seconds a time. Do not keep the ice at the area for long at once. Repeat the compression twice a day.\n 2)) Take an inch of ginger and boil it in a pan with a cup of water. Strain the solution and drink when cooled enough. You can add honey to sweeten the drink.\n 3)) If still not feeling well consult your doctor before taking any medicine by your self`
+        a: `1)) Take a few cubes of ice in a plastic bag. Fill the bag with water and seal or tie it close. Wrap the bag in a towel and put it over the affected area a few seconds a time. Do not keep the ice at the area for long at once. Repeat the compression twice a day.\n <br> 2)) Take an inch of ginger and boil it in a pan with a cup of water. Strain the solution and drink when cooled enough. You can add honey to sweeten the drink.\n <br> 3)) If still not feeling well consult your doctor before taking any medicine by your self`
     },
     {
         q: ["headache", "head ache", "head"],
-        a: `1)) Try herbal tea.\n 2)) Turn down the light and take rest.\n 3)) Drink enough water \n 4)) Head excersize and apply balm for head ache \n if still not relive consult your doctor`
+        a: `1)) Try herbal tea.\n <br> 2)) Turn down the light and take rest.\n <br> 3)) Drink enough water \n <br> 4)) Head excersize and apply balm for head ache \n <br> if still not relive consult your doctor`
     },
     {
         q: ["cough"],
-        a: `*)) Take Honey \n *)) Turmaric powder or tumari milk \n *))steam \n *)) Gargle Saltwater \n *)) Ginger`
+        a: `*)) Take Honey \n <br> *)) Turmaric powder or tumari milk \n <br> *))steam \n <br> *)) Gargle Saltwater \n <br> *)) Ginger`
     },
     {
         q: ["flu"],
-        a: `*))Drink Herbal tea\n *)) Turmaric powder or tumari milk \n *)) Drink warm water or soup \n *)) Inhale Steam \n *)) Blend diet`
+        a: `*))Drink Herbal tea\n <br> *)) Turmaric powder or tumari milk \n <br> *)) Drink warm water or soup \n <br> *)) Inhale Steam \n <br> *)) Blend diet`
     },
     {
         q: ["stomach pain", "stomach"],
-        a: `*))Bitter soda \n *)) Chamomile tea \n *)) Apple cider vinegar  \n *)) Peppermint \n *)) Heating Pod. \n if still not relive consult your doctor`
+        a: `*))Bitter soda \n <br> *)) Chamomile tea \n <br> *)) Apple cider vinegar  \n <br> *)) Peppermint \n <br> *)) Heating Pod. \n <br> if still not relive consult your doctor`
     },
     {
         q: ["tnx", "thanks", "thank you", "you are nice", "nice", "ok thanks", "ok tnx"],
@@ -53,11 +53,11 @@ const qnadata = [
     },
     {
         q: ["bye", "byee", "good by", "byeee", "bbye"],
-        a: () => { console.log("BOT ==> Good bye! stay healthy"); process.exit(); }
+        a: `Good bye! stay healthy.`
     },
     {
         q: ["bye dont like you", "byee disappointed", "useless", "byeee useless", "bbye useless", "bad bot", "bad alex"],
-        a: () => { console.log("BOT ==> I am sorry for disappointing you :(  I am still learning. hope next time I may help you."); process.exit(); }
+        a: ` I am sorry for disappointing you :(  I am still learning. hope next time I may help you.`
     },
 ];
 module.exports = qnadata;
