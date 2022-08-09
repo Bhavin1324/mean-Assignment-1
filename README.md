@@ -33,4 +33,5 @@ Visit pnpm offical docs for more information : https://pnpm.io
 ## Question - 3
 Deployed chat bot module as `health-assist-custom-chatbot`
 
-install chatbot using `npm i health-assist-custom-chatbot`
+install chatbot using `npm i health-assist-custom-chatbot`<br>
+[Go to health assist chatbot npm package](https://www.npmjs.com/package/health-assist-custom-chatbot)
